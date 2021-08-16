@@ -1,8 +1,7 @@
 * {
   padding: 0;
   margin: 0;
-  font-family: 'Roboto', sans-serif;
-  font-family: 'Raleway', ;
+  font-family: 'Roboto', 'Raleway', sans-serif;
 }
 
 :root{
@@ -75,7 +74,7 @@ img{
   display: flex;
   justify-content: start;
   align-items: center;
-  border: 1px solid #EEEEEE;
+  border-bottom: 1px solid #EEEEEE;
 }
 
 .ul-nav {
@@ -94,16 +93,15 @@ img{
 }
 
 .raleway{
-  font-family: 'Raleway';
+  font-family: 'Raleway' ;
 }
 
 .studio {
-  margin-right: 50px;
   font-weight: bold;
+
 }
 
 .portfolio {
-  margin-right: 50px;
   font-weight: bold;
 }
 
@@ -117,7 +115,6 @@ img{
 
 .tel{
   font-weight: 500;
-  margin: 0 0 0 50px;
 }
 
 .mail-tel{
@@ -128,9 +125,16 @@ img{
 
 .container-nav{
   display: flex;
-
 }
 
+.header-item:not(:last-child){
+  margin-right: 50px;
+}
+
+.item-link-header{
+  padding-bottom: 32px;
+  padding-top: 32px;
+}
 /* MAIN */
 
 .container-button{
