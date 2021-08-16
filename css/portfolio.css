@@ -158,14 +158,15 @@ img{
 
 .button{
   padding: 6px 22px;
-  background-color: var(--color-grey-light);
+  background-color: #F5F4FA;
   border-radius: 4px;
   border: none;
-  margin-right: 8px;
   cursor: pointer;
 }
 
-
+.btn-item:not(:last-child){
+  margin-right: 8px;
+}
 
 .button-fover-focus{
   background-color: var(--color-blue);
