@@ -64,8 +64,6 @@ img{
 
 .header {
   display: flex;
-  padding-top: 25px;
-  padding-bottom: 25px;
   align-items: center;
 }
 
@@ -97,24 +95,38 @@ img{
 }
 
 .studio {
+  display: block;
   font-weight: bold;
-
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 .portfolio {
+  display: block;
   font-weight: bold;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 .contacts{
+  display: block;
   font-weight: bold;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 .mail {
+  display: block;
   font-weight: 500;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 .tel{
+  display: block;
   font-weight: 500;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 .mail-tel{
@@ -151,7 +163,8 @@ img{
   text-align: center;
   letter-spacing: 0.06em;
   max-width: 696px;
-  margin: 30px auto;
+  margin: 0 auto;
+  margin-bottom: 30px;
 }
 
 .button {
@@ -214,7 +227,6 @@ img{
 
 .doing-pic {
   display: flex;
-  justify-content: space-between;
 }
 
 .doing-text {
@@ -227,8 +239,8 @@ img{
   margin-bottom: 50px;
 }
 
-.doing-img {
-
+.doing-img:not(:last-child) {
+  margin-right: 30px;
 }
 
 .team {
@@ -254,7 +266,6 @@ img{
 }
 
 .box-team {
-  padding-bottom: 30px;
   background-color: var(--color-white);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -265,6 +276,11 @@ img{
   margin-right: 30px;
 }
 
+.our-team-box{
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
 .name-team {
   color: var(--color-black);
   font-size: 16px;
@@ -272,7 +288,7 @@ img{
   line-height: 19px;
   letter-spacing: 0.03em;
   text-align: center;
-  padding: 30px 0 10px 0;
+  margin-bottom: 10px;
 }
 
 .profession-team {
@@ -326,6 +342,10 @@ img{
   font-size: 14px;
   line-height: 24px;
   color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-item:not(:last-child){
+  margin-bottom: 9px;
 }
 
 .address-tel {
